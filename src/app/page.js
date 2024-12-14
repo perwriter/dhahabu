@@ -62,7 +62,6 @@ export default function ProfilePage() {
       <header className="sticky top-0 z-50 bg-white shadow-md">
         <div className="container mx-auto flex h-20 items-center justify-between px-4">
           <div className="flex items-center">
-           
             <a href="/" className="text-4xl font-bold text-indigo-600">
               Dhahabu
             </a>
@@ -92,7 +91,7 @@ export default function ProfilePage() {
         >
           <button
             onClick={toggleSidebar}
-            className="absolute -right-3 top-6 rounded-full bg-gradient-to-r from-indigo-500 to-purple-500 p-0.5 text-black shadow-md hover:bg-gray-100"
+            className="absolute -right-3 top-6 rounded-full bg-gray-200 ring-1 ring-gray-400 p-0 text-black shadow-md hover:bg-gray-100"
           >
             {isSidebarOpen ? (
               <ChevronLeft className="h-6 w-6" />
@@ -101,7 +100,6 @@ export default function ProfilePage() {
             )}
           </button>
           <nav className="mt-8 space-y-4 px-2">
-         
             {menuItems.map((item) => (
               <a
                 key={item.name}
@@ -129,7 +127,7 @@ export default function ProfilePage() {
         >
           {/* Profile Header */}
           <div className="mb-6 overflow-hidden rounded-lg bg-white shadow-lg">
-            <div className="h-32 bg-gradient-to-r from-indigo-500 to-purple-500"></div>
+            <div className="h-32 bg-gradient-to-r from-indigo-800 via-purple-700 to-purple-500"></div>
             <div className="relative px-4 pb-4 pt-16">
               <div className="absolute -top-12 left-4">
                 <div className="h-24 w-24 rounded-full border-4 border-white bg-gray-300"></div>
@@ -214,8 +212,3 @@ export default function ProfilePage() {
     </div>
   );
 }
-
-
-
-
-
