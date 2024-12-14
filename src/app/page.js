@@ -64,7 +64,7 @@ export default function ProfilePage() {
           <div className="flex items-center">
            
             <a href="/" className="text-4xl font-bold text-indigo-600">
-              Dhaabu
+              Dhahabu
             </a>
           </div>
           <div className="flex items-center space-x-4">
